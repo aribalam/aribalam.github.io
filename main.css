@@ -122,3 +122,39 @@ body {
 .wrapper {
     width: 100%;
 }
+
+#facebook_link {
+    color: #3b5998;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#github_link {
+    color: black;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#linkedin_link {
+    color: #0e76a8;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#mail_link {
+    color: red;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#medium_link {
+    color: black;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+#insta_link {
+    color: #E1306C;
+    font-size: 3rem;
+    margin: 10px;
+}
