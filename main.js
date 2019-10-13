@@ -1,11 +1,18 @@
 $(document).ready(function() {
     
     $('.header').height($(window).height());
+    $('#header').particleground({
+        density: 50000,
+        parallaxMultiplier: 20,
+    });
 
     // Set the section height to full height
     console.log(window.innerHeight);
     $('.section').height(window.innerHeight);
     $('.section').css('padding', 30);
 
-    // $('.section_content').css('height', '100%');
+    $('.nav_button').click(function() {
+        var link = this.id.split("_")[0];
+        window.location.href = link;
+    })
 });
