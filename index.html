@@ -18,7 +18,8 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="./particleground-master/jquery.particleground.min.js"></script>
         
-        <header class='header' id="header">
+        <header class='section header' id="header">
+            <a name="header"></a>
             <div class='intro'>
                 <div class='title'>
                     Arib Alam
@@ -31,10 +32,18 @@
                     <button class="nav_button" id="#projects_button">PROJECTS</button>
                 </div>
             </div>
+            <a href="#about">
+                <i id="down_arrow" class="fa fa-chevron-down" aria-hidden="true"></i>
+            </a>
         </header>
         
         <div class='section' id="about">
             <a name='about'></a>
+            <div class="nav_wrapper">
+                <a href="#header">
+                    <i id="up_arrow" class="fa fa-chevron-up" aria-hidden="true"></i>
+                </a>
+            </div>
             <div class='section_title'>About</div>
             <div class="section_content center">
                 <div id="intro_text">Hi, I am Arib Alam, a Third Year Undergraduate Student from IIT Kharagpur</div>
@@ -66,10 +75,20 @@
                     <i id="insta_link" class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
             </div>
+            <div class="nav_wrapper">
+                <a href="#projects">
+                    <i id="down_arrow" class="fa fa-chevron-down" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
 
         <div class='section' id="projects">
             <a name="projects"></a>
+            <div class="nav_wrapper">
+                <a href="#about">
+                    <i id="up_arrow" class="fa fa-chevron-up" aria-hidden="true"></i>
+                </a>
+            </div>
             <div class='section_title'>Projects</div>
             <div class="section_content center" id="project_section_content" style="flex-wrap: wrap; overflow-y: scroll">
                 <div class="project_box">   
