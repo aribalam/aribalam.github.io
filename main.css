@@ -130,6 +130,13 @@ canvas {
     box-shadow: 1px 1px 30px grey;
 }
 
+.project_box:hover {
+    box-shadow: 2px 2px 30px black;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
 .project_box_title {
     font-size: 30px;
     font-weight: bold;
