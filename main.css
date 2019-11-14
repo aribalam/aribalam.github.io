@@ -115,11 +115,11 @@ canvas {
 /* 
     Project Sections
 */
-/* #project_section_content {
+#project_section_content {
     flex-wrap: wrap; 
-    align-items: stretch;
+    justify-content: flex-start;
     overflow-y: scroll;
-} */
+}
 
 .project_box {
     background-color: white;
